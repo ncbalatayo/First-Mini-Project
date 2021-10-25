@@ -160,8 +160,10 @@ corr <- function(directory, threshold=0){
   ## 'directory' is a character vector of length 1 indicating
   ## the location of the CSV files
   
-  ## 'id' is an integer vector indicating the monitor ID numbers
-  ## to be used
+  ## 'threshold' is a numeric vector of length 1 indicating the
+  ## number of completely observed observations (on all variables)
+  ## required to compute the correlation between
+  ## nitrate and sulfate; the defualt is 0
   
   name<- c(list.files(directory))
   ## storing the name of the CSV files in the directory in a character vector 'name'
