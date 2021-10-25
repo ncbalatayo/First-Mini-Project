@@ -324,9 +324,9 @@ hist(outcome[, 11],
      ## will put the title of the histogram 
      ## ("Hospital 30-Day Death(Mortality) Rates from Heart Attack
      xlab= "Deaths", 
-     ## will label the axis as 'Death'
+     ## will label the x axis as 'Death'
      ylab = "Frequency"
-     ## will label the axis as 'Death'
+     ## will label the y axis as 'Death'
      )
 
 
